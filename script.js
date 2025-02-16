@@ -10,8 +10,8 @@ const timeLeftEl = document.getElementById('time-left');
 const startStopBtn = document.getElementById('start-stop-btn');
 const resetBtn = document.getElementById('reset-btn');
 const pomodoroIntervalBtn = document.getElementById('pomodoro-interval-btn');
-const settingsBtn = document.getElementById('settings-btn');
-const settingsModal = document.getElementById('settings-modal');
+// const settingsBtn = document.getElementById('settings-btn');
+// const settingsModal = document.getElementById('settings-modal');
 const closeModalBtn = document.querySelector('.close-btn');
 const backgroundColorSelect = document.getElementById('background-color');
 const fontColorSelect = document.getElementById('font-color');
@@ -50,9 +50,9 @@ resetBtn.addEventListener('click', () => {
 });
 
 // Event listener for settings button
-settingsBtn.addEventListener('click', () => {
-  settingsModal.style.display = 'flex';
-});
+// settingsBtn.addEventListener('click', () => {
+// settingsModal.style.display = 'flex';
+// });
 
 // Event listener for close button in the settings modal
 closeModalBtn.addEventListener('click', () => {
